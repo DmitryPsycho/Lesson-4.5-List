@@ -15,8 +15,8 @@ struct NumbersView: View {
             Section(person.fullName) {
                 PersonInfoView(person: person.phoneNumber, imageName: "phone")
                 PersonInfoView(person: person.email, imageName: "tray")
-                }
             }
+        }
         .listStyle(.plain)
     }
 }

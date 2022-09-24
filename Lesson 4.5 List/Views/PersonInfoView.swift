@@ -10,7 +10,7 @@ import SwiftUI
 struct PersonInfoView: View {
     let person: String
     let imageName: String
-        
+    
     var body: some View {
         HStack {
             Text(Image(systemName: imageName))

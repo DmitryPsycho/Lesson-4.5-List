@@ -14,7 +14,7 @@ struct MainScreenView: View {
         TabView {
             ContactsView(persons: personInfo)
                 .tabItem {
-                    Image(systemName: "person.2")
+                    Image(systemName: "person.3")
                     Text("Contacts")
                 }
             NumbersView(persons: personInfo)
