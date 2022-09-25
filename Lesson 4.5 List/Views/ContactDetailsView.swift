@@ -19,8 +19,8 @@ struct ContactDetailsView: View {
                     .frame(width: 100, height: 100)
                 Spacer()
             }
-            PersonInfoView(person: person.phoneNumber, imageName: "phone")
-            PersonInfoView(person: person.email, imageName: "tray")
+            Label(person.phoneNumber, systemImage: "phone")
+            Label(person.email, systemImage: "tray")
         }
         .navigationTitle(person.fullName)
     }

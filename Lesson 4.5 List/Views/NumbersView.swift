@@ -13,8 +13,8 @@ struct NumbersView: View {
     var body: some View {
         List(persons) { person in
             Section(person.fullName) {
-                PersonInfoView(person: person.phoneNumber, imageName: "phone")
-                PersonInfoView(person: person.email, imageName: "tray")
+                Label(person.phoneNumber, systemImage: "phone")
+                Label(person.email, systemImage: "tray")
             }
         }
         .listStyle(.plain)

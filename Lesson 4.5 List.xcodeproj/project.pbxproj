@@ -16,7 +16,6 @@
 		403E2B7128DF36010096590B /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E2B7028DF36010096590B /* ContactsView.swift */; };
 		403E2B7328DF36090096590B /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E2B7228DF36090096590B /* NumbersView.swift */; };
 		403E2B7728DF46360096590B /* ContactDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E2B7628DF46360096590B /* ContactDetailsView.swift */; };
-		403E2B7928DF6C2D0096590B /* PersonInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E2B7828DF6C2D0096590B /* PersonInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +29,6 @@
 		403E2B7028DF36010096590B /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		403E2B7228DF36090096590B /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
 		403E2B7628DF46360096590B /* ContactDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsView.swift; sourceTree = "<group>"; };
-		403E2B7828DF6C2D0096590B /* PersonInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +102,6 @@
 				403E2B7028DF36010096590B /* ContactsView.swift */,
 				403E2B7628DF46360096590B /* ContactDetailsView.swift */,
 				403E2B7228DF36090096590B /* NumbersView.swift */,
-				403E2B7828DF6C2D0096590B /* PersonInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,7 +189,6 @@
 				403E2B5B28DF0CB70096590B /* MainScreenView.swift in Sources */,
 				403E2B7328DF36090096590B /* NumbersView.swift in Sources */,
 				403E2B7128DF36010096590B /* ContactsView.swift in Sources */,
-				403E2B7928DF6C2D0096590B /* PersonInfoView.swift in Sources */,
 				403E2B7728DF46360096590B /* ContactDetailsView.swift in Sources */,
 				403E2B5928DF0CB70096590B /* Lesson_4_5_ListApp.swift in Sources */,
 			);
